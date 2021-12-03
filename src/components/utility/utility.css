@@ -59,7 +59,7 @@
     transform: translateX(50%) translateY(80%);
 }
 .mint_button_container{
-    margin-top: 4em;
+    margin-top: 8em;
     padding: 1em 20em;
     display: flex;
     flex-direction: row;
