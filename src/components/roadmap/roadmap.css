@@ -1,0 +1,121 @@
+.roadmap_layout{
+    background-color: rgb(20,20,22);
+    padding-top: 15em;
+}
+
+.roadmap_section{
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(63,67,73);
+    height:800px;
+    margin: 0em 3em;
+    min-width: 1240px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.roadmap_left_bar{
+    flex: 5;
+    background-image: url(../../assets/header/roadmap-bg.jpg);
+    border-right: solid thin rgb(63,67,73);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.roadmap_left_title{
+    padding-top: 6em;
+    line-height: 1.4em;
+    font-size: 30px;
+}
+.roadmap_right_text:first-child{
+    margin-top: 4em!important;
+    min-width:300px;
+    max-width:300px;
+    margin:0 auto;
+    line-height: 1.8em;
+    font-size: 16px;
+    color: rgb(138,138,138);
+    text-align: center;
+}
+.roadmap_right_text{
+    margin-top: 2em!important;
+    min-width:300px;
+    max-width:300px;
+    margin:0 auto;
+    line-height: 1.8em;
+    font-size: 16px;
+    color: rgb(138,138,138);
+    text-align: center;
+}
+.roadmap_right_bar{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.roadmap_mint_container{
+    width: 100%;
+    position: relative;
+}
+
+.roadmap_mint{
+    float: left;
+    background-color: rgb(112,190,74);
+    font-size: 15px;
+    margin: 4em auto;
+    padding: 1em 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+.roadmap_mint:hover{
+    background-color:  black;
+    color: white;
+    transition: color 0.4s ease;
+}
+.roadmap_mint:not(:hover){
+    background-color:  rgb(112,190,74);
+    color: black;
+    transition: color 0.4s ease;
+}
+@media only screen and (max-width: 600px) {
+    .roadmap_layout{
+        background-color: rgb(20,20,22);
+        padding-top: 100em;
+    }
+    .roadmap_section{
+        border: none;
+        height:auto;
+        margin: 0em 3em;
+        min-width: 0px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    .roadmap_left_title{
+        padding: 3em 0em;
+        line-height: 1.4em;
+        font-size: 30px;
+    }
+    .roadmap_left_bar{
+        flex: 5;
+        background-image: url(../../assets/header/roadmap-mobile-bg.webp);
+        border: none;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+    .roadmap_right_text:first-child{
+        margin-top: 1em!important;
+        
+    }
+}

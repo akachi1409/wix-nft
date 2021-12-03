@@ -1,0 +1,39 @@
+.state_layout{
+    background-color: rgb(20,20,22);
+    text-align: center;
+    padding-bottom: 2em;
+}
+.state_title{
+    padding-top: 6em;
+    line-height: 1.4em;
+    font-size: 30px;
+    color: white;
+}
+
+.state_cards{
+    display: flex;
+    flex-direction: row;
+    padding: 0em 5em;
+}
+.state_card{
+    flex: 2;
+}
+.state_bg{
+    height: 400px;
+    width: 100%;
+    background-image: url(../../assets/header/state-bg.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+    .state_cards{
+        display: flex;
+        flex-direction: column;
+        padding: 0em 5em;
+    }
+    .state_bg{
+        height: 0px;
+        background-image:none;
+    }
+}

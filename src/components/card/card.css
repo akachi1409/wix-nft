@@ -1,0 +1,54 @@
+.card_layout{
+    border: 2px solid rgb(27,28,30);
+    border-radius: 5px;
+    max-width: 240px;
+    width: 240px;
+    max-height: 350px;
+    height: 350px;
+    background-color: rgb(27,28,30);
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+.card_svg{
+    margin: 30px;
+    width: 52px;
+    height: 34px;
+    fill: rgb(112,190,74);
+}
+
+.card_title{
+    margin: 30px;
+    font-size: 18px;
+    color: rgb(136,156,231);
+}
+
+.card_text{
+    margin: 30px;
+    line-height: 1.6em;
+    font-size: 14px;
+    color: rgb(138,138,138);
+    font-family: "open sans",sans-serif;
+}
+
+.card_bar{
+    border: 3px solid rgb(63,67,73);
+    border-radius: 5px;
+    margin: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card_layout{
+        border: 2px solid rgb(27,28,30);
+        border-radius: 5px;
+        max-width: 100%;
+        width: 100%;
+        max-height: 350px;
+        height: 350px;
+        background-color: rgb(27,28,30);
+        text-align: left;
+        display: inline-block;
+        margin-bottom: 2em;
+    }
+}
